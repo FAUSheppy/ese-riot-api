@@ -36,6 +36,7 @@ def api(iterable):
     players = []
     missing = []
     count = 0
+    pTmp = None
 
     for l in iterable:
         count += 1
