@@ -2,6 +2,7 @@
 
 import riotwatcher
 import json
+import time
 import argparse
 import os
 from jinja2 import Environment, FileSystemLoader
@@ -40,8 +41,12 @@ if __name__ == "__main__":
         WATCHER = riotwatcher.LolWatcher(key)
 
     players = []
+    count = 0
     with open("players.txt") as f:
         for l in f:
+            count += 1
+            if count > 9:
+                time.sleep(1)
             pTmp = WATCHER.summoner.by_name(REGION, l.strip())
             if not pTmp:
                 continue
