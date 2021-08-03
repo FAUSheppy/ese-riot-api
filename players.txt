@@ -11,14 +11,13 @@ ESE Litzuck
 ESE MarsUltor
 ESE McT4nk
 ESE Nemesis
-ESE PhonixForcer
 ESE Schmohi
 ESE Sheppy
 ESE TheSecondEnd
 ESE Theta
 ESE TomTom
 ESE Trashcar
-ESE Vın
+ESE Vinnie
 ESE woodi
 ESE Wyski
 FluffyUn1corn
